@@ -21,7 +21,7 @@ const cmd = require("node-cmd");
 const prefix = "!";
 const cooldown = new Set(10);
 const cdtime = 5;
-client.login("TYPE TOKEN");
+client.login("MTAyMzUzMzM0NjE2NjQxOTQ2Ng.Gjmkc_.oUTMM6AciM6gwljQgzfbSELdeVHhl_cDWq7h7k");
 client.on("ready", () => {
   console.log(`${client.user.tag}`);
 });
@@ -61,8 +61,8 @@ __**Moderation Commands**__
 
 `;
     var addserver = ``;
-    var SUPPORT = `TYPE LINK YOUR SERVER ❤`;
-    var WEBSITE = `TYPE YOUR WEB`;
+    var SUPPORT = `https://discord.gg/5duSwtSmHr ❤`;
+    var WEBSITE = `https://discord.gg/5duSwtSmHr`;
     var EMBED = new Discord.MessageEmbed()
       .setTitle(`${message.author.username}`)
       .setDescription(
