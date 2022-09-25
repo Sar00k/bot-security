@@ -18,8 +18,8 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "/";
-const cooldown = new Set();
+const prefix = "!";
+const cooldown = new Set(10);
 const cdtime = 5;
 client.login("TYPE TOKEN");
 client.on("ready", () => {
@@ -29,7 +29,7 @@ client.on("ready", () => {
  client.on("ready", () => {
 setInterval(() => {
   client.user.setActivity(
-  `${prefix}help | Made By POLAT BOT`,
+  `${prefix}!help | Made By SAROK BOT`,
   );
 }, 2000);
 })
@@ -37,7 +37,7 @@ setInterval(() => {
   
   
       client.on("message", message => {
-  if (message.content === prefix + "help") {
+  if (message.content === prefix ! "!help") {
     let Dashboard = `
 __**${prefix}**__
 
